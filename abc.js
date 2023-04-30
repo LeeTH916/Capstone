@@ -1,7 +1,6 @@
-import * as THREE from "https://cdn.jsdelivr.net/npm/three@0.118/build/three.module.js";
-import { OrbitControls } from 'https://cdn.jsdelivr.net/npm/three@0.118/examples/jsm/controls/OrbitControls.js';
-import { OBJLoader } from "https://cdn.jsdelivr.net/npm/three@0.118/examples/jsm/loaders/OBJLoader.js";
-
+import * as THREE from "https://cdn.jsdelivr.net/npm/three@0.120/build/three.module.js";
+import { OrbitControls } from 'https://cdn.jsdelivr.net/npm/three@0.120/examples/jsm/controls/OrbitControls.js';
+import { OBJLoader } from "https://cdn.jsdelivr.net/npm/three@0.120/examples/jsm/loaders/OBJLoader.js";
 
 const w = window.innerWidth;
 const h = window.innerHeight;
@@ -40,4 +39,4 @@ function handleWindowResize () {
   camera.updateProjectionMatrix();
   renderer.setSize(window.innerWidth, window.innerHeight);
 }
-window.addEventListener('resize', handleWindowResize, false);ㅁ
+window.addEventListener('resize', handleWindowResize, false);
