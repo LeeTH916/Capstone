@@ -31,7 +31,7 @@ animate();
 }
 
 const loader = new OBJLoader();
-loader.load("./mesh_438.obj", (obj) => {
+loader.load("mesh_438.obj", (obj) => {
     init(obj.children[0].geometry);
 });
 function handleWindowResize () {
