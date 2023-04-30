@@ -2,6 +2,7 @@ import * as THREE from "https://cdn.jsdelivr.net/npm/three@0.120/build/three.mod
 import { OrbitControls } from 'https://cdn.jsdelivr.net/npm/three@0.120/examples/jsm/controls/OrbitControls.js';
 import { OBJLoader } from "https://cdn.jsdelivr.net/npm/three@0.120/examples/jsm/loaders/OBJLoader.js";
 
+
 const w = window.innerWidth;
 const h = window.innerHeight;
 const scene = new THREE.Scene();
